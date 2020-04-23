@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/odedia/spring-session-sample-config-repo.git
+          uri: https://github.com/saritaksharma/springboot-redis-session-authentication.git
 
       
 eureka:
