@@ -1,0 +1,17 @@
+spring:
+  session:
+    store-type: redis
+ 
+  application:
+    name: spring-apigateway
+zuul: 
+  retryable: true
+  routes:
+    order-management-service: /order-management/**
+sensitiveHeaders: Authorization, Set-Cookie
+security:
+  user:
+    name: root
+    password: root
+server:
+  port: 7000
