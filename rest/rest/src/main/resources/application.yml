@@ -1,0 +1,13 @@
+spring:
+  session:
+    store-type: redis
+
+  application:
+    name: order-management-service 
+    
+security:
+  user:
+    name: sarita
+    password: sarita
+server:
+  port: 8000
